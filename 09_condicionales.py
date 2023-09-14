@@ -33,3 +33,14 @@ if not my_string:
 
 if my_string == "Mi cadena de textoooooo":
     print("Estas cadenas de texto coinciden")
+    
+    
+def f(x):
+    match x:
+        case 'a':
+            return 1
+        case 'b':
+            return 2
+        
+        
+print(f('b'))
